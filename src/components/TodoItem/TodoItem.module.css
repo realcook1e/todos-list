@@ -1,0 +1,36 @@
+.todo {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding: 10px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.title {
+	margin: 0;
+	font-weight: 300;
+}
+
+.checkbox {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid;
+}
+
+.done .checkbox {
+	border-color: #77c0af;
+}
+
+.undone .checkbox {
+	border-color: #dfdfdf;
+}
+
+.done .title {
+	text-decoration: line-through;
+	color: #dfdfdf;
+}

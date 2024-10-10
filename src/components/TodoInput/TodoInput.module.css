@@ -1,0 +1,50 @@
+.field {
+	display: flex;
+	height: 60px;
+	padding: 10px;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.controls {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+}
+
+.addButton {
+	fill: #e5c9c7;
+	transition: all 0.3s ease;
+}
+
+.addButton:hover {
+	fill: #e5b6b3;
+}
+
+.input {
+	border: none;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.input::placeholder {
+	color: #dfdfdf;
+	font-size: 24px;
+	font-weight: 200;
+	font-style: italic;
+}
+
+.input:focus {
+	border: none;
+	outline: none;
+}
+
+.showTodoBtn {
+	transform: rotate(-90deg);
+	transition: all 0.3s ease;
+}
+
+.hideTodoBtn {
+	transition: all 0.3s ease;
+}
